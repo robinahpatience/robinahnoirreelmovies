@@ -7,7 +7,7 @@ A responsive movie and TV show discovery website built for the Web and Mobile Ap
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/home.png)
 
 ### Details page
 ![Details page](screenshots/details.png)
