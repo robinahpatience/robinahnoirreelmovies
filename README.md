@@ -4,6 +4,14 @@ A responsive movie and TV show discovery website built for the Web and Mobile Ap
 
 **Live app:** https://robinahnoirreelmovies.vercel.app/
 
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Details page
+![Details page](screenshots/details.png)
+
 ## Features
 - Homepage with Trending, Popular Movies, Action Movies and Popular TV Shows
 - Search for movies and TV shows by title
