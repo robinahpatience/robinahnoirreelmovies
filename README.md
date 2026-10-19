@@ -1,16 +1,35 @@
-# React + Vite
+# NoirReel - Movie Discovery Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie and TV show discovery website built for the Web and Mobile Application Development course.
 
-Currently, two official plugins are available:
+**Live app:** https://robinahnoirreelmovies.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Homepage with Trending, Popular Movies, Action Movies and Popular TV Shows
+- Search for movies and TV shows by title
+- Movies and TV Shows pages with genre filter and "Load more"
+- Details page (poster, overview, release date, rating, genres)
+- My Watchlist saved in localStorage
+- Responsive layout with a mobile navigation drawer
+- Loading, empty-result, missing-poster and error handling
 
-## React Compiler
+## Technologies
+React (JavaScript), Vite, Material UI, React Router, Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API
+Data comes from the [TMDB API](https://www.themoviedb.org/).
+This product uses the TMDB API but is not endorsed or certified by TMDB.
 
-## Expanding the ESLint configuration
+## Run locally
+1. Clone the repository and open the folder
+2. Run `npm install`
+3. Copy `.env.example` to a new file named `.env` and add your own TMDB API key:
+   `VITE_TMDB_API_KEY=your_key_here`
+4. Run `npm run dev`
+5. Open the local address shown in the terminal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+The API key is loaded from an environment variable and is not committed to GitHub.
+
+## Author
+Robinah Patience
